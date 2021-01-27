@@ -125,6 +125,11 @@ body {
   .info-line {
     display: flex;
 
+    &__img {
+      filter: invert(1);
+      opacity: 0.7;
+    }
+
     &__label {
       font-size: 17px;
       line-height: 20px;
@@ -157,7 +162,7 @@ body {
   min-height: 100vh;
 
   &__h3 {
-    font-family: 'Balsamiq Sans', Roboto;
+    font-family: 'Philosopher', sans-serif;
     text-align: center;
     font-size: 50px;
     margin-bottom: 0;
@@ -184,6 +189,16 @@ body {
       object-fit: cover;
     }
 
+    .front-tile {
+      position: absolute;
+      top: 90px;
+      height: 720px;
+      width: 100%;
+      background-color: #000;
+      opacity: 0.3;
+    }
+
+
     .glass {
       display: flex;
       align-items: center;
@@ -209,20 +224,22 @@ body {
       left: calc(50% - 550px);
       top: 525px;
 
-      font-family: 'Balsamiq Sans', Roboto;
+      font-family: 'Philosopher', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 35px;
       line-height: 150%;
       color: #fff;
       text-align: center;
+      font-weight: bold;
 
       text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.3);
+      -webkit-text-stroke: 0.5px #000;
     }
 
     .menu-button {
       position: absolute;
-
+      font-family: 'Philosopher', sans-serif;
       width: 350px;
       height: 80px;
       left: calc(50% - 175px);
@@ -300,7 +317,7 @@ body {
       flex-direction: column;
       height: 100%;
       &__button {
-        //top: 0;
+        font-family: 'Philosopher', sans-serif;
         width: 350px;
         height: 65px;
         background: #8B2846;
@@ -405,13 +422,13 @@ body {
       }
 
       &-button {
-        font-family: 'Balsamiq Sans';
+        font-family: 'Philosopher', sans-serif;
         font-size: 22px;
         width: 300px;
         height: 70px;
         margin-top: -35px;
-        background: #F0D6DE;
-        color: #000;
+        background: #8B2846;
+        color: #fff;
         font-weight: bold;
         text-transform: uppercase;
         backdrop-filter: blur(25px);
@@ -424,7 +441,7 @@ body {
           left: 0;
           width: 100%;
           height: 100%;
-          background-color: #F0D6DE;
+          background: #8B2846;
           border-radius: 0.55rem;
           z-index: -2;
         }
@@ -435,13 +452,13 @@ body {
           left: 0;
           width: 0%;
           height: 100%;
-          background-color: darken(#F0D6DE, 15%);
+          background-color: lighten(#8B2846, 10%);
           transition: all .3s;
           border-radius: 0.55rem;
           z-index: -1;
         }
         &:hover {
-          color: #000;
+          color: #fff;
           text-decoration: none;
           &:before {
             width: 100%;
@@ -483,7 +500,7 @@ body {
       }
 
       &__label {
-        font-family: 'Balsamiq Sans';
+        font-family: 'Philosopher', sans-serif;
         font-size: 25px;
         line-height: 150%;
         display: flex;
@@ -569,6 +586,8 @@ body {
     img {
       width: 35px;
       height: auto;
+      filter: invert(1);
+      opacity: 0.7;
 
       &:last-of-type {
         margin-left: 30px;
