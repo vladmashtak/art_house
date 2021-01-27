@@ -171,9 +171,7 @@ body {
 
     section {
       position: relative;
-      &:not(:last-of-type) {
-        overflow: hidden;
-      }
+      overflow: hidden;
     }
   }
 
