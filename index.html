@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/starter.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Bootstrap npm starter</title>
+</head>
+<body>
+<header class="art-header fixed-top">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="логотип" class="art-header__site-logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon"></span>
+          <span class="icon"></span>
+          <span class="icon"></span>
+          <span class="icon"></span>
+        </button>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <div class="info-line">
+                <img class="info-line__img" src="assets/img/tel.svg" alt="телефон">
+                <div class="info-line__label">063 354 8091</div>
+              </div>
+              <!--<div class="info-line">-->
+                <!--<img class="info-line__img" src="assets/img/tel.svg" alt="телефон">-->
+                <!--<div class="info-line__label">063 600 63 63</div>-->
+              <!--</div>-->
+            </li>
+            <li class="nav-item">
+              <div class="info-line">
+                <img class="info-line__img" src="assets/img/map.svg" alt="карта">
+                <div class="info-line__label">Ювилейный проспект, 37</div>
+              </div>
+              <div class="info-line">
+                <img class="info-line__img" src="assets/img/clock.svg" alt="часы">
+                <div class="info-line__label">c 11:00 - 23:00</div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="info-line">
+                <img class="info-line__img" src="assets/img/facebook.svg" alt="фейсбук">
+              </div>
+              <div class="info-line">
+                <img class="info-line__img" src="assets/img/insta.svg" alt="интсаграм">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+</header>
+<main class="art-content__main">
+  <section class="art-content__main-section">
+    <!--<h1 class="main-title"><img class="img-fluid" src="assets/img/main-logo.png" alt="заведение"></h1>-->
+    <img class="img-fluid main-img" src="assets/img/main-screen.jpg" alt="заведение">
+    <div data-aos="zoom-in" class="glass">
+      <img class="img-fluid main-logo" src="assets/img/big-logo.png" alt="главное лого">
+    </div>
+    <h2 data-aos="fade-in" class="description">Разнообразный и богатый опыт сложившаяся структура организации создаёт предпосылки качественно новых шагов</h2>
+    <a data-aos="fade-up" href="#menu" class="art-button menu-button">Посмотреть Меню</a>
+  </section>
+
+  <h3 class="art-content__h3">Галерея</h3>
+  <section class="art-content__gallery">
+    <img class="img-fluid background-logo" src="assets/img/big-logo.png" alt="главное лого">
+    <div class="container">
+      <div data-aos="fade-left" class="row">
+        <div class="col-sm-12 col-lg-7">
+          <img class="img-fluid art-gallery__img" src="assets/img/gallery1.jpg" alt="галлерея паба">
+        </div>
+        <div class="col-sm-12 col-lg-5 art-gallery">
+          <a href="" class="art-button art-gallery__button">
+            Галерея бара
+          </a>
+          <div class="art-gallery__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis consectetur deleniti deserunt doloribus eaque harum id impedit in inventore
+            ipsam, iste iusto molestiae nam natus, nemo nihil obcaecati odit quam quas totam ut veritatis! Ad beatae blanditiis commodi consequuntur distinctio earum
+            et illum in incidunt laudantium magnam maiores necessitatibus nemo nesciunt nostrum optio
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-right" class="row">
+        <div class="col-sm-12 col-lg-5 art-gallery">
+          <div class="art-gallery__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis consectetur deleniti deserunt doloribus eaque harum id impedit in inventore
+            ipsam, iste iusto molestiae nam natus, nemo nihil obcaecati odit quam quas totam ut veritatis! Ad beatae blanditiis commodi consequuntur distinctio earum
+            et illum in incidunt laudantium magnam maiores necessitatibus nemo nesciunt nostrum optio
+          </div>
+          <a href="" class="art-button art-gallery__button">
+            Галерея ресторана
+          </a>
+        </div>
+        <div class="col-sm-12 col-lg-7">
+          <img class="img-fluid art-gallery__img" src="assets/img/gallery2.jpg" alt="галлерея паба">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="art-content__menu" id="menu">
+    <img class="img-fluid art-content__menu-img" src="assets/img/steak.jpg" alt="стейк">
+    <div class="glass">
+      <h3 class="art-content__h3">Меню</h3>
+    </div>
+    <div class="container art-content__menu-types">
+      <div class="row">
+        <div data-aos="fade-up" data-aos-delay="50" class="col-sm-12 col-md-4 menu-type__item">
+          <img class="menu-type__item-img" src="assets/img/bar.jpg" alt="меню бара">
+          <a class="art-button menu-type__item-button" href="">Меню паба</a>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="100" class="col-sm-12 col-md-4 menu-type__item">
+          <img class="menu-type__item-img" src="assets/img/restourant.jpg" alt="меню ресторана">
+          <a class="art-button menu-type__item-button" href="">Меню ресторана</a>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="150" class="col-sm-12 col-md-4 menu-type__item">
+          <img class="menu-type__item-img" src="assets/img/delivery.jpg" alt="меню доставки">
+          <a class="art-button menu-type__item-button" >Меню доставки</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="art-content__h3 about-us__h3">Почему мы</h3>
+  <section class="art-content__about-us">
+    <img class="about-us__img" src="assets/img/about-as-background.jpg" alt="фон секции о нас">
+    <div class="container">
+      <div class="row justify-content-center justify-content-sm-center">
+        <div data-aos="fade-left" class="col-11 col-sm-8 col-md-6 about-us__item">
+          <img class="about-us__icon" src="assets/img/about1.svg" alt="">
+          <div class="about-us__label">профессиональная техника на кухне</div>
+        </div>
+        <div data-aos="fade-right" class="col-11 col-sm-8 col-md-6 about-us__item">
+          <img class="about-us__icon" src="assets/img/about5.svg" alt="">
+          <div class="about-us__label">всегда свежие продукты</div>
+        </div>
+      </div>
+      <div class="row justify-content-center justify-content-sm-center">
+        <div data-aos="fade-left" class="col-11 col-sm-8 col-md-6 about-us__item">
+          <img class="about-us__icon" src="assets/img/about2.svg" alt="">
+          <div class="about-us__label">собственный коптильный цех</div>
+        </div>
+        <div data-aos="fade-right" class="col-11 col-sm-8 col-md-6 about-us__item">
+          <img class="about-us__icon" src="assets/img/about6.svg" alt="">
+          <div class="about-us__label">собственная пивоварня</div>
+        </div>
+      </div>
+      <div class="row justify-content-center justify-content-sm-center">
+        <div data-aos="fade-left" class="col-11 col-sm-8 col-md-6 about-us__item">
+          <img class="about-us__icon" src="assets/img/about3.svg" alt="">
+          <div class="about-us__label">смокер гриль-барбекю</div>
+        </div>
+        <div data-aos="fade-right" class="col-11 col-sm-8 col-md-6 about-us__item">
+          <img class="about-us__icon" src="assets/img/about7.svg" alt="">
+          <div class="about-us__label">быстрая доставка</div>
+        </div>
+      </div>
+      <div class="row justify-content-center justify-content-sm-center">
+        <div data-aos="fade-left" class="col-11 col-sm-8 col-md-6 about-us__item">
+          <img class="about-us__icon" src="assets/img/about4.svg" alt="">
+          <div class="about-us__label">опытные повара</div>
+        </div>
+        <div data-aos="fade-right" class="col-11 col-sm-8 col-md-6 about-us__item">
+          <img class="about-us__icon" src="assets/img/about8.svg" alt="">
+          <div class="about-us__label">вкусные блюда</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="art-content__contacts">
+    <!--<img class="art-content__contacts-img" src="/assets/img/gres.png" alt="трава, декорация">-->
+    <div class="container">
+      <div class="row">
+        <div data-aos="fade-right" class="col-sm-12 col-md-4">
+          <h3 class="art-content__h3">Наши контакты</h3>
+          <div class="info-line">
+            <img class="info-line__img" src="assets/img/mail.svg" alt="email">
+            <div class="info-line__label">art.steakhouse@gmail.com</div>
+          </div>
+          <div class="info-line">
+            <img class="info-line__img" src="assets/img/tel.svg" alt="телефон">
+            <div class="info-line__label">063 354 8091</div>
+          </div>
+          <div class="info-line">
+            <img class="info-line__img" src="assets/img/map.svg" alt="карта">
+            <div class="info-line__label">Ювилейный проспект, 37</div>
+          </div>
+          <div class="info-line">
+            <img class="info-line__img" src="assets/img/clock.svg" alt="часы">
+            <div class="info-line__label">c 11:00 - 23:00</div>
+          </div>
+        </div>
+        <div data-aos="fade-left" class="col-sm-12 col-md-8">
+          <img class="img-fluid art-content__contacts-map" src="assets/img/big-map.jpg" alt="большая карта">
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="art-footer">
+<div class="container">
+  <div class="row justify-content-center justify-content-md-center">
+    <div class="col-12 col-md-6 art-footer__line">
+      <img class="info-line__img" src="assets/img/facebook.svg" alt="фейсбук">
+      <img class="info-line__img" src="assets/img/insta.svg" alt="интсаграм">
+    </div>
+  </div>
+  <div class="row justify-content-center justify-content-md-center">
+    <div class="col-12 col-md-6 art-footer__line last">&#xa9; 2021 Art House</div>
+  </div>
+</div>
+</footer>
+
+<!--<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="module" src="assets/js/starter.js"></script>
+</body>
