@@ -472,12 +472,13 @@ body {
     position: relative;
 
     .container {
-      padding: 80px 0;
+      padding-top: 80px;
+      padding-bottom: 30px;
     }
 
-    .row:not(:last-child) {
-      margin-bottom: 50px;
-    }
+    //.row:not(:last-child) {
+    //  margin-bottom: 50px;
+    //}
 
     .about-us {
       &__img {
@@ -490,7 +491,7 @@ body {
       &__item {
         display: flex;
         align-items: center;
-
+        margin-bottom: 50px;
       }
 
       &__icon {
